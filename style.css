@@ -323,3 +323,10 @@ body{background-color:#000!important;background-image:radial-gradient(ellipse at
  .hero-actions .btn{width:min(100%,320px)!important;min-width:0!important;max-width:320px!important;flex:0 1 auto!important}
  #sobre .photo img,#servicos .photo img,#portfolio .photo img,#ferramentas .photo img{max-height:250px!important}
 }
+
+
+/* Cores dos botões restauradas ao padrão verde escuro anterior */
+.btn,.pill{background:linear-gradient(180deg,#397b36,#244f29)!important;border:1px solid #83b96c!important;color:#fff!important;box-shadow:0 0 12px rgba(131,185,108,.18)!important}
+.btn.out{background:rgba(0,0,0,.5)!important;border:1px solid #83b96c!important;color:#fff!important}
+.btn:hover,.pill:hover{background:linear-gradient(180deg,#458d40,#2d6132)!important;box-shadow:0 0 20px rgba(131,185,108,.32)!important}
+.btn.out:hover{background:rgba(0,0,0,.72)!important;border-color:#9acb83!important}
