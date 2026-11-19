@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Automação industrial integrada</title><desc id="desc">Ilustração vetorial de um painel de controle, tanques de processo, tubulações, esteira e braço robótico integrados por sinais de automação.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1510"/><stop offset=".55" stop-color="#101c16"/><stop offset="1" stop-color="#050a07"/></linearGradient>
+ <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#46534c"/><stop offset=".5" stop-color="#202a24"/><stop offset="1" stop-color="#111914"/></linearGradient>
+ <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#29362f"/><stop offset="1" stop-color="#111914"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#163d2a"/><stop offset="1" stop-color="#08170f"/></linearGradient>
+ <linearGradient id="green" x2="1" y2="1"><stop stop-color="#5cf078"/><stop offset="1" stop-color="#00a716"/></linearGradient>
+ <linearGradient id="belt" x2="0" y2="1"><stop stop-color="#56635a"/><stop offset="1" stop-color="#1a211c"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="14"/></filter>
+ <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#7b9c84" stroke-opacity=".08" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="760" fill="url(#bg)"/><rect width="1200" height="760" fill="url(#grid)"/>
+<path d="M0 620 1200 570v190H0Z" fill="#080e0a"/><path d="M0 620 1200 570" stroke="#36513d" stroke-width="2" opacity=".45"/>
+<ellipse cx="600" cy="655" rx="520" ry="54" fill="#000" opacity=".42" filter="url(#shadow)"/>
+<!-- painel de controle -->
+<g>
+ <path d="m76 228 38-25 250 0-36 25Z" fill="#536057"/><path d="M328 228h36v390h-36Z" fill="#101812" stroke="#58645c" stroke-width="2"/>
+ <rect x="76" y="228" width="252" height="390" rx="9" fill="url(#panel)" stroke="#708078" stroke-width="3"/>
+ <rect x="93" y="247" width="218" height="351" rx="5" fill="#18231c" stroke="#425349" stroke-width="2"/>
+ <rect x="111" y="269" width="182" height="123" rx="7" fill="#060d09" stroke="#718079" stroke-width="3"/>
+ <rect x="120" y="278" width="164" height="105" rx="3" fill="url(#screen)"/>
+ <path d="M131 352h142M131 344h90M131 291h66" stroke="#a6c8ae" stroke-opacity=".35" stroke-width="2"/>
+ <path d="M131 326h24l10-14 15 25 16-18 12 7 12-19 15 19h27" fill="none" stroke="#00d84a" stroke-width="3" stroke-linejoin="round"/>
+ <g fill="#80c98d"><rect x="131" y="300" width="28" height="5" rx="2"/><rect x="165" y="300" width="18" height="5" rx="2"/><rect x="189" y="300" width="34" height="5" rx="2"/></g>
+ <text x="202" y="369" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#b8d8c0" letter-spacing="1.5">PROCESS CONTROL</text>
+ <g transform="translate(112 416)">
+  <rect width="180" height="151" rx="5" fill="#0c130f" stroke="#3e5145" stroke-width="2"/>
+  <g transform="translate(14 15)">
+   <rect width="31" height="108" rx="3" fill="#25362c" stroke="#718078"/><rect x="5" y="10" width="21" height="25" rx="2" fill="#0a170e" stroke="#00a716"/>
+   <g fill="#00d64b"><circle cx="15" cy="19" r="3"/><circle cx="15" cy="29" r="3"/></g><path d="M8 49h15M8 58h15M8 67h15M8 76h15" stroke="#9caca0" stroke-width="2"/>
+   <rect x="39" width="31" height="108" rx="3" fill="#25362c" stroke="#718078"/><path d="M47 14h15M47 24h15M47 34h15M47 44h15M47 54h15M47 64h15M47 74h15" stroke="#90a198" stroke-width="2"/>
+   <rect x="78" width="31" height="108" rx="3" fill="#25362c" stroke="#718078"/><g fill="#00a716"><rect x="85" y="12" width="17" height="8" rx="2"/><rect x="85" y="30" width="17" height="8" rx="2"/><rect x="85" y="48" width="17" height="8" rx="2"/></g>
+   <rect x="117" width="31" height="108" rx="3" fill="#25362c" stroke="#718078"/><path d="M124 18h17M124 38h17M124 58h17M124 78h17" stroke="#90a198" stroke-width="2"/>
+  </g>
+ </g>
+ <g fill="#00d84a"><circle cx="121" cy="220" r="4"/><circle cx="138" cy="220" r="4"/></g>
+ <path d="M92 618h247" stroke="#00a716" stroke-width="4" opacity=".85"/>
+</g>
+<!-- tanques e tubulações -->
+<g stroke-linejoin="round">
+ <g transform="translate(455 184)">
+  <ellipse cx="80" cy="24" rx="71" ry="20" fill="#59675e" stroke="#9baa9e" stroke-width="2"/>
+  <path d="M9 24v237c0 15 32 28 71 28s71-13 71-28V24" fill="url(#metal)" stroke="#91a097" stroke-width="2.5"/>
+  <ellipse cx="80" cy="261" rx="71" ry="20" fill="#1a251e" stroke="#79877d" stroke-width="2"/>
+  <path d="M15 178h130v78c0 13-29 24-65 24s-65-11-65-24Z" fill="#00a716" opacity=".16"/>
+  <path d="M18 176h124" stroke="#45df68" stroke-width="3" opacity=".8"/>
+  <path d="M80 4v-35m-18 0h36" stroke="#b1bdb4" stroke-width="5"/>
+  <rect x="133" y="74" width="25" height="47" rx="4" fill="#17251b" stroke="#00a716" stroke-width="2"/>
+  <path d="M145 80v34M138 89h14" stroke="#8fe9a0" stroke-width="2"/>
+  <path d="M80 4v46m-9-9h18" stroke="#a6b3aa" stroke-width="3"/>
+  <path d="M51 287v28m58-28v28" stroke="#9aa69e" stroke-width="7"/>
+ </g>
+ <g transform="translate(680 260)">
+  <ellipse cx="60" cy="18" rx="51" ry="15" fill="#526157" stroke="#9baa9e" stroke-width="2"/>
+  <path d="M9 18v174c0 13 23 23 51 23s51-10 51-23V18" fill="url(#metal)" stroke="#8e9c92" stroke-width="2"/>
+  <ellipse cx="60" cy="192" rx="51" ry="15" fill="#17231b" stroke="#8e9c92" stroke-width="2"/>
+  <path d="M60 3v-30m-13 0h26" stroke="#adb9b0" stroke-width="5"/>
+  <path d="M17 124h86" stroke="#00a716" stroke-width="3" opacity=".65"/>
+  <rect x="91" y="67" width="20" height="34" rx="3" fill="#0d1711" stroke="#00a716" stroke-width="2"/>
+  <path d="M101 72v24" stroke="#8ee79c" stroke-width="2"/>
+ </g>
+ <path d="M535 153v-54h238v132m-238-77h-90v-34" fill="none" stroke="#9ba99f" stroke-width="11"/>
+ <path d="M535 153v-54h238v132m-238-77h-90v-34" fill="none" stroke="#243d2c" stroke-width="5"/>
+ <path d="M772 230h64v-70h96" fill="none" stroke="#a4b0a8" stroke-width="10"/>
+ <path d="M772 230h64v-70h96" fill="none" stroke="#24422d" stroke-width="4"/>
+ <g transform="translate(820 151)"><path d="M0 0h20v18H0z" fill="#27382d" stroke="#00a716" stroke-width="2"/><path d="M10 18v18m-10 0h20" stroke="#9baa9e" stroke-width="3"/><circle cx="10" cy="9" r="3" fill="#00d84a"/></g>
+</g>
+<!-- esteira e volumes -->
+<g transform="translate(770 525)">
+ <path d="m0 60 275-49 88 44-280 57Z" fill="#0a100c" stroke="#526158" stroke-width="3"/>
+ <path d="m0 35 275-49 88 44-280 57Z" fill="url(#belt)" stroke="#91a097" stroke-width="3"/>
+ <path d="m20 37 270-47m-250 60 270-47m-246 59 271-48" stroke="#89968d" stroke-width="2" opacity=".55"/>
+ <g fill="#18241c" stroke="#8a988e" stroke-width="2"><path d="m65 19 47-8 31 17-48 9Z"/><path d="m105 17 47-8 31 17-48 9Z"/></g>
+ <g transform="translate(173 -70)"><path d="m0 32 58-11 49 28-60 12Z" fill="#53645a" stroke="#a5b2aa" stroke-width="2"/><path d="M0 32v66l47 28V61Z" fill="#27382d" stroke="#86948a" stroke-width="2"/><path d="m47 61 60-12v66l-60 40Z" fill="#18271d" stroke="#86948a" stroke-width="2"/><path d="m19 42 30-6 20 12-31 7Z" fill="#00a716" opacity=".7"/></g>
+ <g fill="#46564b" stroke="#9aa69e" stroke-width="3"><circle cx="47" cy="105" r="14"/><circle cx="302" cy="62" r="14"/></g>
+ <path d="M47 105h255" stroke="#68766c" stroke-width="8"/>
+</g>
+<!-- braço robótico -->
+<g transform="translate(1000 125)">
+ <path d="M71 452h140l-17 44H53Z" fill="#101812" stroke="#65736a" stroke-width="3"/>
+ <path d="M100 452v-52l30-24 50 24v52Z" fill="url(#metal)" stroke="#9ba79f" stroke-width="3"/>
+ <circle cx="155" cy="390" r="33" fill="#34453a" stroke="#a0ada4" stroke-width="4"/>
+ <path d="m155 390-50-110 35-23 69 96Z" fill="#334a38" stroke="#a6b3aa" stroke-width="4"/>
+ <circle cx="122" cy="268" r="25" fill="#1b2b20" stroke="#a1afa5" stroke-width="4"/>
+ <path d="m122 268 57-116 34 10-32 139Z" fill="#415847" stroke="#abb8af" stroke-width="4"/>
+ <circle cx="197" cy="156" r="24" fill="#1b2b20" stroke="#a1afa5" stroke-width="4"/>
+ <path d="m197 156 39-37 27 12-41 47Z" fill="#364b3a" stroke="#aab7ae" stroke-width="4"/>
+ <path d="m236 131 22-15 17 8-9 28-19 1" fill="#53645a" stroke="#b1bdb4" stroke-width="3"/>
+ <path d="m258 124 12-17 8 4-3 19m-17 0-7 18" fill="none" stroke="#d5dfd8" stroke-width="4" stroke-linecap="round"/>
+ <path d="M111 453h107" stroke="#00a716" stroke-width="4"/>
+ <g fill="#00d84a"><circle cx="155" cy="390" r="5"/><circle cx="122" cy="268" r="5"/><circle cx="197" cy="156" r="5"/></g>
+</g>
+<!-- sinalização digital ligando sensores, CLP e atuadores -->
+<g fill="none" stroke="url(#green)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M365 316h47v-95h55"/><path d="M607 324h50v-56h23"/><path d="M797 340h60v-75h58"/>
+ <path d="M362 440h52v120h126" stroke-dasharray="7 8" opacity=".75"/>
+</g>
+<g fill="#00d84a"><circle cx="412" cy="316" r="6"/><circle cx="659" cy="324" r="6"/><circle cx="857" cy="340" r="6"/><circle cx="540" cy="560" r="6"/></g>
+<g fill="#d2ded5" opacity=".65"><circle cx="400" cy="82" r="2"/><circle cx="886" cy="91" r="3"/><circle cx="950" cy="410" r="2"/><circle cx="418" cy="520" r="2"/></g>
+</svg>
