@@ -399,3 +399,71 @@ body{background-color:#000!important;background-image:radial-gradient(ellipse at
     max-height:54px!important;
   }
 }
+
+
+/* Retorno das cores originais dos botões; dimensões permanecem iguais */
+.btn,.pill{
+  background:#00a716!important;
+  border:1px solid #00a716!important;
+  color:#fff!important;
+  box-shadow:none!important;
+}
+.btn.out{
+  background:rgba(20,20,20,.92)!important;
+  border:1px solid #888!important;
+  color:#fff!important;
+}
+.btn:hover,.pill:hover{background:#008f12!important;box-shadow:none!important}
+.btn.out:hover{background:rgba(20,20,20,.92)!important;border-color:#00a716!important}
+
+/* Padrão único para os desenhos dentro dos cartões */
+.card .ic.big,
+.service-head .ic.big,
+.home-card .ic.big{
+  box-sizing:border-box!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:66px!important;
+  height:66px!important;
+  min-width:66px!important;
+  flex:0 0 66px!important;
+  padding:12px!important;
+  margin:0 0 12px!important;
+  border:1px solid rgba(0,167,22,.55)!important;
+  border-radius:14px!important;
+  background:rgba(0,167,22,.07)!important;
+  filter:none!important;
+}
+.card .ic.big svg,
+.service-head .ic.big svg,
+.home-card .ic.big svg{
+  display:block!important;
+  width:100%!important;
+  height:100%!important;
+  stroke:#00a716!important;
+  stroke-width:1.8!important;
+  fill:none!important;
+  filter:none!important;
+  shape-rendering:geometricPrecision;
+}
+.service-head .ic.big{margin:0!important}
+.area-icon{
+  box-sizing:border-box!important;
+  display:block!important;
+  width:66px!important;
+  height:66px!important;
+  padding:12px!important;
+  margin:0 0 10px!important;
+  border:1px solid rgba(0,167,22,.55)!important;
+  border-radius:14px!important;
+  background:rgba(0,167,22,.07)!important;
+  stroke:#00a716!important;
+  stroke-width:1.8!important;
+  filter:none!important;
+}
+@media(max-width:760px){
+  .card .ic.big,.service-head .ic.big,.home-card .ic.big,.area-icon{
+    width:58px!important;height:58px!important;min-width:58px!important;flex-basis:58px!important;padding:10px!important;
+  }
+}
