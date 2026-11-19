@@ -330,3 +330,32 @@ body{background-color:#000!important;background-image:radial-gradient(ellipse at
 .btn.out{background:rgba(0,0,0,.5)!important;border:1px solid #83b96c!important;color:#fff!important}
 .btn:hover,.pill:hover{background:linear-gradient(180deg,#458d40,#2d6132)!important;box-shadow:0 0 20px rgba(131,185,108,.32)!important}
 .btn.out:hover{background:rgba(0,0,0,.72)!important;border-color:#9acb83!important}
+
+
+/* Mesmo tamanho para os dois botões da página inicial — sem alterar as cores */
+.hero-actions .btn{
+  box-sizing:border-box!important;
+  width:250px!important;
+  min-width:250px!important;
+  max-width:250px!important;
+  height:54px!important;
+  min-height:54px!important;
+  max-height:54px!important;
+  flex:0 0 250px!important;
+  padding:10px 16px!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  text-align:center!important;
+}
+@media(max-width:760px){
+  .hero-actions .btn{
+    width:min(100%,320px)!important;
+    min-width:0!important;
+    max-width:320px!important;
+    height:54px!important;
+    min-height:54px!important;
+    max-height:54px!important;
+    flex:0 1 54px!important;
+  }
+}
