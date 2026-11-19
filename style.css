@@ -304,3 +304,22 @@ main,main>section,.alt,.hero,.home-highlights,.strip,.ft{background-color:transp
  .hero-actions .btn{width:100%}
  .service-illustration{width:56px;height:52px;flex-basis:56px}
 }
+
+
+/* Padronização final das ilustrações vetoriais e botões da página inicial */
+body{background-color:#000!important;background-image:radial-gradient(ellipse at 20% 15%,rgba(0,167,22,.10),transparent 38%),linear-gradient(135deg,#050805 0%,#0b100c 48%,#030503 100%)!important}
+.hero-actions{display:flex!important;justify-content:center!important;align-items:center!important;gap:16px!important;width:100%}
+.hero-actions .btn{width:250px!important;min-width:250px!important;max-width:250px!important;min-height:54px!important;flex:0 0 250px!important;padding:13px 18px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;white-space:normal!important}
+.photo img,.sensor-banner img{width:100%;height:auto;object-fit:contain!important;image-rendering:auto}
+#sobre .photo img,#servicos .photo img,#portfolio .photo img,#ferramentas .photo img{max-height:340px!important;aspect-ratio:16/10;object-fit:contain!important;background:#0b100c;border:1px solid rgba(0,167,22,.45);border-radius:14px;padding:10px}
+#sobre .photo:not(.flat) img,#servicos .photo img,#ferramentas .photo img{clip-path:none!important}
+#sobre .photo.flat img{height:auto!important;max-height:340px!important}
+.sensor-banner{height:auto!important;max-height:300px;background:#0b100c}
+.sensor-banner img{max-height:300px;object-fit:contain!important}
+.cta2{background-image:linear-gradient(135deg,#101a12,#050805)!important}
+.service-illustration{width:72px;height:64px;object-fit:contain}
+@media(max-width:760px){
+ .hero-actions{flex-direction:column!important;align-items:center!important;gap:12px!important}
+ .hero-actions .btn{width:min(100%,320px)!important;min-width:0!important;max-width:320px!important;flex:0 1 auto!important}
+ #sobre .photo img,#servicos .photo img,#portfolio .photo img,#ferramentas .photo img{max-height:250px!important}
+}
