@@ -67,7 +67,7 @@ input:disabled{opacity:.6}
 th{background:var(--g);color:#000;padding:8px}td{padding:7px;border-bottom:1px solid var(--ln)}tr.on td{background:rgba(131,185,108,.18);color:var(--g);font-weight:700}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.chips button{background:#0a100a;color:#fff;border:1px solid var(--ln);border-radius:20px;padding:8px 14px;cursor:pointer;font:inherit;min-height:40px}.chips button.on{background:var(--g2);border-color:var(--g);color:#000;font-weight:700}
 .sg{grid-template-columns:repeat(auto-fill,minmax(270px,1fr));margin-top:16px}.sg small{color:var(--g)}.sg b{color:#d6e7a5}.sg p{margin-top:4px}
-.cta2{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:24px;padding:22px;border:1px solid var(--g);border-radius:16px;background:linear-gradient(rgba(5,8,5,.8),rgba(5,8,5,.9)),url(assets/plant.svg) center/cover}.cta2 div{flex:1;min-width:220px}.cta2 h3{font-size:1.5rem}
+.cta2{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:24px;padding:22px;border:1px solid var(--g);border-radius:16px;background:linear-gradient(rgba(5,8,5,.8),rgba(5,8,5,.9)),url(assets/planta.jpg) center/cover}.cta2 div{flex:1;min-width:220px}.cta2 h3{font-size:1.5rem}
 .ft{background:#020302;border-top:2px solid var(--g);padding:40px 5% 22px}.fg{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}.fg nav{flex-wrap:wrap}.cp{margin-top:26px;padding-top:14px;border-top:1px solid var(--ln)}
 @media(max-width:960px){.g3{grid-template-columns:repeat(2,1fr)}.two,.two.rev{grid-template-columns:1fr}.pane{grid-template-columns:1fr}.in{border:0;border-bottom:1px solid var(--ln)}nav{gap:16px}}
 @media(max-width:760px){
@@ -193,7 +193,7 @@ section{scroll-margin-top:0}
 /* ===== Identidade final: fundo institucional e cabeçalho do mockup ===== */
 :root{--g:#00a716;--g2:#008f12;--ln:rgba(0,167,22,.52)}
 html{background:#000}
-body{background:#000 linear-gradient(135deg,#050805,#0b100c) center top / cover fixed no-repeat!important}
+body{background:#000 url('assets/background-pattern.png') center top / cover fixed no-repeat!important}
 main,main>section,.alt,.hero,.home-highlights,.strip,.ft{background-color:transparent!important;background-image:none!important}
 .hd{background:#050505!important;border-bottom:2px solid #00a716!important;box-shadow:none!important;min-height:88px;padding:8px max(4%,calc((100% - 1500px)/2))}
 .hd .logo{width:280px;height:76px;object-fit:contain;object-position:left center}
@@ -263,63 +263,3 @@ main,main>section,.alt,.hero,.home-highlights,.strip,.ft{background-color:transp
 .header-contact{display:inline-flex;align-items:center;justify-content:center;margin-left:18px;padding:10px 17px;border:1px solid var(--green,#00a716);border-radius:8px;color:var(--green,#00a716);font-weight:700;text-decoration:none;white-space:nowrap;transition:background .2s,color .2s}
 .header-contact:hover{background:var(--green,#00a716);color:#071007}
 @media(max-width:760px){.header-contact{margin:10px 0 0;align-self:flex-start}}
-
-
-/* Refinos de alinhamento e nitidez dos elementos visuais */
-.hero .w.two{align-items:center}
-.hero .w.two>div:first-child{display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
-.hero-actions{width:100%;display:flex;align-items:center;justify-content:flex-start;gap:16px;flex-wrap:wrap}
-.hero-actions .btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;line-height:1.25}
-.photo img,.sensor-banner img{image-rendering:auto;-webkit-backface-visibility:hidden;backface-visibility:hidden}
-.photo{filter:none}
-.photo img{object-position:center;max-width:100%}
-.hero .photo img{object-position:center}
-.ic svg,.area-icon{shape-rendering:geometricPrecision;vector-effect:non-scaling-stroke}
-.service-head{align-items:center}
-.service-head .ic.big{width:64px;height:64px;flex:0 0 64px;overflow:visible}
-.service-head .ic.big svg{width:100%;height:100%;shape-rendering:geometricPrecision}
-
-/* Ilustração vetorial dedicada: automação de processos industriais */
-.process-automation-visual{width:100%;height:auto;max-width:580px;display:block;margin:4px auto 0}
-.process-automation-visual .stroke{fill:none;stroke:#00a716;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}
-.process-automation-visual .muted{fill:#171a1c;stroke:#00a716;stroke-width:2}
-.process-automation-visual .signal{fill:none;stroke:#d7e5d9;stroke-width:1.8;stroke-dasharray:4 5;stroke-linecap:round}
-.process-automation-visual .accent{fill:#00a716}
-.process-automation-visual text{fill:#f4f4f4;font:600 10px "Segoe UI",Arial,sans-serif;letter-spacing:.4px}
-@media(max-width:760px){.hero-actions{align-items:stretch}.hero-actions .btn{width:100%}.service-head .ic.big{width:54px;height:54px;flex-basis:54px}}
-
-
-/* ===== Centralização do destaque inicial e refinamento dos vetores ===== */
-.hero .w.two>div:first-child{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
-.hero .w.two>div:first-child h1{width:100%;text-align:center}
-.hero .w.two>div:first-child .lead{max-width:58ch;margin:0 auto 14px;border-left:0;padding-left:0;text-align:center}
-.hero-actions{width:100%;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:26px}
-.hero-actions .btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;line-height:1.25}
-.hero .photo img{object-fit:cover;object-position:center;image-rendering:auto}
-.service-illustration{display:block;width:72px;height:64px;flex:0 0 72px;object-fit:contain;image-rendering:auto}
-.ic svg,.area-icon{shape-rendering:geometricPrecision}
-@media(max-width:760px){
- .hero .w.two>div:first-child{align-items:center;text-align:center}
- .hero-actions{justify-content:center;align-items:stretch}
- .hero-actions .btn{width:100%}
- .service-illustration{width:56px;height:52px;flex-basis:56px}
-}
-
-
-/* Padronização final das ilustrações vetoriais e botões da página inicial */
-body{background-color:#000!important;background-image:radial-gradient(ellipse at 20% 15%,rgba(0,167,22,.10),transparent 38%),linear-gradient(135deg,#050805 0%,#0b100c 48%,#030503 100%)!important}
-.hero-actions{display:flex!important;justify-content:center!important;align-items:center!important;gap:16px!important;width:100%}
-.hero-actions .btn{width:250px!important;min-width:250px!important;max-width:250px!important;min-height:54px!important;flex:0 0 250px!important;padding:13px 18px!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;white-space:normal!important}
-.photo img,.sensor-banner img{width:100%;height:auto;object-fit:contain!important;image-rendering:auto}
-#sobre .photo img,#servicos .photo img,#portfolio .photo img,#ferramentas .photo img{max-height:340px!important;aspect-ratio:16/10;object-fit:contain!important;background:#0b100c;border:1px solid rgba(0,167,22,.45);border-radius:14px;padding:10px}
-#sobre .photo:not(.flat) img,#servicos .photo img,#ferramentas .photo img{clip-path:none!important}
-#sobre .photo.flat img{height:auto!important;max-height:340px!important}
-.sensor-banner{height:auto!important;max-height:300px;background:#0b100c}
-.sensor-banner img{max-height:300px;object-fit:contain!important}
-.cta2{background-image:linear-gradient(135deg,#101a12,#050805)!important}
-.service-illustration{width:72px;height:64px;object-fit:contain}
-@media(max-width:760px){
- .hero-actions{flex-direction:column!important;align-items:center!important;gap:12px!important}
- .hero-actions .btn{width:min(100%,320px)!important;min-width:0!important;max-width:320px!important;flex:0 1 auto!important}
- #sobre .photo img,#servicos .photo img,#portfolio .photo img,#ferramentas .photo img{max-height:250px!important}
-}
