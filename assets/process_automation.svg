@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 112" role="img" aria-labelledby="title desc">
+<title id="title">Automação de processos</title><desc id="desc">Sensor e tanque conectados a um controlador lógico e a uma bomba de processo.</desc>
+<defs><linearGradient id="pmetal" x2="1" y2="1"><stop stop-color="#46574a"/><stop offset="1" stop-color="#17251b"/></linearGradient></defs>
+<g fill="none" stroke="#00a716" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M34 36h25m41 0h24M80 61v17H34V63m92-27v42H80"/>
+ <path d="M29 29v14m10-14v14M25 29h18M25 43h18"/>
+ <path d="M57 32l5 4-5 4m38-4 5-4v8"/>
+ <rect x="59" y="22" width="42" height="39" rx="5" fill="#171a1c"/>
+ <path d="M68 32h24M68 39h14M68 47h20" stroke="#b6d5bd" stroke-width="2"/>
+ <path d="M72 61v9h16v-9"/>
+ <path d="M118 24h14v24h-14z" fill="url(#pmetal)"/>
+ <circle cx="125" cy="36" r="4" fill="#00a716"/>
+ <path d="M121 48v6m8-6v6m-14 0h20"/>
+ <path d="M18 63h32v28H18z" fill="url(#pmetal)"/>
+ <path d="M18 76h32" stroke="#00a716" opacity=".9"/>
+ <path d="M23 63v-6h22v6M26 91v6m16-6v6"/>
+ <path d="M34 55v8" stroke-dasharray="2 3"/>
+ <path d="M112 78h28v22h-28z" fill="url(#pmetal)"/>
+ <circle cx="126" cy="89" r="7"/><path d="m126 82 0 14m-7-7h14" stroke-width="1.8"/>
+ <path d="M126 100v5h-92V91" stroke-dasharray="3 3"/>
+</g>
+<g fill="#00d84a"><circle cx="34" cy="36" r="3.5"/><circle cx="126" cy="36" r="3.5"/><circle cx="80" cy="78" r="3.5"/></g>
+</svg>
