@@ -287,3 +287,20 @@ main,main>section,.alt,.hero,.home-highlights,.strip,.ft{background-color:transp
 .process-automation-visual .accent{fill:#00a716}
 .process-automation-visual text{fill:#f4f4f4;font:600 10px "Segoe UI",Arial,sans-serif;letter-spacing:.4px}
 @media(max-width:760px){.hero-actions{align-items:stretch}.hero-actions .btn{width:100%}.service-head .ic.big{width:54px;height:54px;flex-basis:54px}}
+
+
+/* ===== Centralização do destaque inicial e refinamento dos vetores ===== */
+.hero .w.two>div:first-child{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+.hero .w.two>div:first-child h1{width:100%;text-align:center}
+.hero .w.two>div:first-child .lead{max-width:58ch;margin:0 auto 14px;border-left:0;padding-left:0;text-align:center}
+.hero-actions{width:100%;display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:26px}
+.hero-actions .btn{display:inline-flex;align-items:center;justify-content:center;text-align:center;line-height:1.25}
+.hero .photo img{object-fit:cover;object-position:center;image-rendering:auto}
+.service-illustration{display:block;width:72px;height:64px;flex:0 0 72px;object-fit:contain;image-rendering:auto}
+.ic svg,.area-icon{shape-rendering:geometricPrecision}
+@media(max-width:760px){
+ .hero .w.two>div:first-child{align-items:center;text-align:center}
+ .hero-actions{justify-content:center;align-items:stretch}
+ .hero-actions .btn{width:100%}
+ .service-illustration{width:56px;height:52px;flex-basis:56px}
+}
